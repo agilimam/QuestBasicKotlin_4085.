@@ -42,14 +42,18 @@ fun ContohList(){
 //set read only menggunakan setof
 //set mutable menggunakan mutablesetof
 
-fun ContohSet(){
+fun ContohSet() {
     println()
     println("=== Set ===")
 
     //set read only
-    val readOnlyAbjad = setOf("A","B","C")
+    val readOnlyAbjad = setOf("A", "B", "C")
     println(readOnlyAbjad)
-}
 
+
+//set mutable
+    val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
+    println(shape)
+}
 
 
